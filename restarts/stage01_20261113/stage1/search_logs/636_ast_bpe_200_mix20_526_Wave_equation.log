@@ -1,0 +1,39 @@
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: overflow encountered in divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 3925, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  4.67it/s]100%|██████████| 1/1 [00:00<00:00,  4.66it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 65.93it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 73.44it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 81.01it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 71.28it/s]
+STUDY3_CYCLE Wave_equation ast_bpe 1
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:263: RuntimeWarning: divide by zero encountered in scalar divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 3545, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 56.81it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 82.75it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 65.96it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 76.62it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 75.20it/s]
+STUDY3_CYCLE Wave_equation ast_bpe 2
+CANDIDATE_BUDGET {'target': 400, 'attempts': 3290, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 59.10it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 85.02it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 70.44it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 73.26it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 72.36it/s]
+STUDY3_CYCLE Wave_equation ast_bpe 3
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:263: RuntimeWarning: divide by zero encountered in scalar divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 3320, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 59.30it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 78.26it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 83.17it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 77.72it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 78.69it/s]
+STUDY3_CYCLE Wave_equation ast_bpe 4
+CANDIDATE_BUDGET {'target': 400, 'attempts': 3000, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 56.03it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 86.31it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 84.36it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 79.00it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 76.60it/s]
+STUDY3_CYCLE Wave_equation ast_bpe 5
+CASE_COMPLETE 636 ast_bpe_200 13 526 Wave_equation

@@ -1,0 +1,21 @@
+[
+  {
+    "time": 1794580131.036612,
+    "cause": "search seed incorrectly passed as fixed surrogate cache seed; failure before candidate generation",
+    "failures": [
+      {
+        "job": {
+          "scale": 212,
+          "seed": 526,
+          "case": "Wave_equation",
+          "arm": "eqgpt_reference",
+          "sampling": "legacy",
+          "random_fraction": 0.2
+        },
+        "exit_code": 1,
+        "gpu": "GPU-ba72db90-47e9-38fd-0e9e-905c3b1798b5"
+      }
+    ],
+    "fix": "read and validate cache seed separately; keep pretrained/search seed unchanged"
+  }
+]

@@ -1,0 +1,43 @@
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: overflow encountered in divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 871, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  4.26it/s]100%|██████████| 1/1 [00:00<00:00,  4.26it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 72.35it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 83.01it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 86.96it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 76.39it/s]
+STUDY3_CYCLE KG_equation ast_bpe 1
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: overflow encountered in divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 836, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 63.26it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 84.09it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 63.51it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 76.28it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 73.90it/s]
+STUDY3_CYCLE KG_equation ast_bpe 2
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: overflow encountered in divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 767, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 66.50it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 82.77it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 73.57it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 68.24it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 75.59it/s]
+STUDY3_CYCLE KG_equation ast_bpe 3
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: overflow encountered in divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 760, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 54.69it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 69.58it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 84.68it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 76.83it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 82.19it/s]
+STUDY3_CYCLE KG_equation ast_bpe 4
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: overflow encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: overflow encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: overflow encountered in divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 744, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 14.07it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 75.88it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 82.00it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 77.26it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 85.83it/s]
+STUDY3_CYCLE KG_equation ast_bpe 5
+CASE_COMPLETE 636 ast_bpe_200 13 526 KG_equation

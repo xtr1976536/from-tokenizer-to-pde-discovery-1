@@ -1,0 +1,38 @@
+CANDIDATE_BUDGET {'target': 400, 'attempts': 817, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  4.66it/s]100%|██████████| 1/1 [00:00<00:00,  4.66it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 72.00it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 89.81it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 84.46it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 77.64it/s]
+STUDY3_CYCLE Burgers_equation ast_bpe 1
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 764, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 39.86it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 80.98it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 80.79it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 88.65it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 79.80it/s]
+STUDY3_CYCLE Burgers_equation ast_bpe 2
+CANDIDATE_BUDGET {'target': 400, 'attempts': 794, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 56.28it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 76.16it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 72.95it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 84.44it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 80.00it/s]
+STUDY3_CYCLE Burgers_equation ast_bpe 3
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 698, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 68.83it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 77.67it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 76.67it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 72.83it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 76.82it/s]
+STUDY3_CYCLE Burgers_equation ast_bpe 4
+CANDIDATE_BUDGET {'target': 400, 'attempts': 715, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 68.27it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 74.42it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 68.18it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 76.20it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 79.21it/s]
+STUDY3_CYCLE Burgers_equation ast_bpe 5
+CASE_COMPLETE 318 ast_bpe_200 9 527 Burgers_equation

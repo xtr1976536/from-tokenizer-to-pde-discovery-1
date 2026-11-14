@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "protocols": [
+    "811",
+    "simple_to_complex"
+  ],
+  "records": 636,
+  "base_bytes": 42,
+  "split_counts": {
+    "train": 509,
+    "validation": 64,
+    "test": 63
+  },
+  "result_rows": 44,
+  "usage_rows": 32,
+  "predeclared_test_sizes": [
+    300,
+    450
+  ]
+}

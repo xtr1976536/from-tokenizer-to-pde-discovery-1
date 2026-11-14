@@ -1,0 +1,344 @@
+{
+  "scripts/paper_seed525_analysis.py": [],
+  "scripts/count_high_score_novel_20261114.py": [],
+  "scripts/replay_two_rewards_20261114.py": [
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.existing_surrogate"
+  ],
+  "src/math_tokenizer/eqgpt/author.py": [
+    "math_tokenizer",
+    "math_tokenizer.corpus",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.scoring_fixes"
+  ],
+  "src/math_tokenizer/eqgpt/__init__.py": [
+    "math_tokenizer"
+  ],
+  "src/math_tokenizer/__init__.py": [],
+  "src/math_tokenizer/corpus.py": [
+    "math_tokenizer",
+    "math_tokenizer.ast"
+  ],
+  "src/math_tokenizer/ast.py": [
+    "math_tokenizer"
+  ],
+  "src/math_tokenizer/eqgpt/scoring_fixes.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author"
+  ],
+  "src/math_tokenizer/eqgpt/existing_surrogate.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.data",
+    "math_tokenizer.eqgpt.expanded_corpus"
+  ],
+  "src/math_tokenizer/eqgpt/expanded_corpus.py": [
+    "math_tokenizer",
+    "math_tokenizer.corpus",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.latex_codec"
+  ],
+  "src/math_tokenizer/eqgpt/latex_codec.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author"
+  ],
+  "src/math_tokenizer/eqgpt/data.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.shared8_config"
+  ],
+  "src/math_tokenizer/eqgpt/shared8_config.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt"
+  ],
+  "scripts/analyze_effective_novelty_20261114.py": [
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.data",
+    "math_tokenizer.eqgpt.evaluation",
+    "math_tokenizer.eqgpt.latex_codec",
+    "math_tokenizer.eqgpt.stage1_search_20261113"
+  ],
+  "src/math_tokenizer/eqgpt/stage1_search_20261113.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.cached_batches",
+    "math_tokenizer.eqgpt.data",
+    "math_tokenizer.eqgpt.evaluation",
+    "math_tokenizer.eqgpt.experiment",
+    "math_tokenizer.eqgpt.latex_codec",
+    "math_tokenizer.eqgpt.latex_experiment",
+    "math_tokenizer.eqgpt.latex_generation",
+    "math_tokenizer.eqgpt.paired_pipeline",
+    "math_tokenizer.eqgpt.round1_runtime",
+    "math_tokenizer.eqgpt.study3_corpus"
+  ],
+  "src/math_tokenizer/eqgpt/round1_runtime.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.cached_batches",
+    "math_tokenizer.eqgpt.data",
+    "math_tokenizer.eqgpt.experiment",
+    "math_tokenizer.eqgpt.round1_config"
+  ],
+  "src/math_tokenizer/eqgpt/experiment.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.data",
+    "math_tokenizer.eqgpt.models",
+    "math_tokenizer.eqgpt.tokenizer_adapters"
+  ],
+  "src/math_tokenizer/eqgpt/tokenizer_adapters.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.hard_ast_2026"
+  ],
+  "src/math_tokenizer/hard_ast_2026.py": [
+    "math_tokenizer",
+    "math_tokenizer.ast",
+    "math_tokenizer.atoms_v4",
+    "math_tokenizer.corpus",
+    "math_tokenizer.frontend_v6"
+  ],
+  "src/math_tokenizer/atoms_v4.py": [
+    "math_tokenizer",
+    "math_tokenizer.ast_v3",
+    "math_tokenizer.merge_v2",
+    "math_tokenizer.structure_v3"
+  ],
+  "src/math_tokenizer/ast_v3.py": [
+    "math_tokenizer",
+    "math_tokenizer.merge_v2",
+    "math_tokenizer.native_v3",
+    "math_tokenizer.structure_v2"
+  ],
+  "src/math_tokenizer/native_v3.py": [
+    "math_tokenizer",
+    "math_tokenizer.corpus",
+    "math_tokenizer.structure_v3"
+  ],
+  "src/math_tokenizer/structure_v3.py": [
+    "math_tokenizer",
+    "math_tokenizer.ast",
+    "math_tokenizer.structure_v2",
+    "math_tokenizer.validation_v2"
+  ],
+  "src/math_tokenizer/validation_v2.py": [
+    "math_tokenizer",
+    "math_tokenizer.corpus"
+  ],
+  "src/math_tokenizer/structure_v2.py": [
+    "math_tokenizer",
+    "math_tokenizer.ast",
+    "math_tokenizer.validation_v2"
+  ],
+  "src/math_tokenizer/merge_v2.py": [
+    "math_tokenizer",
+    "math_tokenizer.ast",
+    "math_tokenizer.bpe",
+    "math_tokenizer.structure_v2"
+  ],
+  "src/math_tokenizer/bpe.py": [
+    "math_tokenizer",
+    "math_tokenizer.ast"
+  ],
+  "src/math_tokenizer/frontend_v6.py": [
+    "math_tokenizer",
+    "math_tokenizer.corpus",
+    "math_tokenizer.structure_v2"
+  ],
+  "src/math_tokenizer/eqgpt/models.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author"
+  ],
+  "src/math_tokenizer/eqgpt/round1_config.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt"
+  ],
+  "src/math_tokenizer/eqgpt/cached_batches.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt"
+  ],
+  "src/math_tokenizer/eqgpt/paired_pipeline.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.latex_codec"
+  ],
+  "src/math_tokenizer/eqgpt/study3_corpus.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.expanded_corpus",
+    "math_tokenizer.eqgpt.latex_codec"
+  ],
+  "src/math_tokenizer/eqgpt/latex_experiment.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.cached_batches",
+    "math_tokenizer.eqgpt.corpus_conversion",
+    "math_tokenizer.eqgpt.data",
+    "math_tokenizer.eqgpt.evaluation",
+    "math_tokenizer.eqgpt.experiment",
+    "math_tokenizer.eqgpt.frozen_math",
+    "math_tokenizer.eqgpt.latex_codec",
+    "math_tokenizer.eqgpt.latex_generation",
+    "math_tokenizer.eqgpt.models",
+    "math_tokenizer.eqgpt.paired_pipeline",
+    "math_tokenizer.eqgpt.pde_frozen",
+    "math_tokenizer.eqgpt.round1_config",
+    "math_tokenizer.eqgpt.round1_runtime",
+    "math_tokenizer.eqgpt.shared8",
+    "math_tokenizer.eqgpt.shared8_config",
+    "math_tokenizer.eqgpt.tokenizer_adapters"
+  ],
+  "src/math_tokenizer/eqgpt/corpus_conversion.py": [
+    "math_tokenizer",
+    "math_tokenizer.corpus",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.latex_codec"
+  ],
+  "src/math_tokenizer/eqgpt/frozen_math.py": [
+    "math_tokenizer",
+    "math_tokenizer.active_benchmark",
+    "math_tokenizer.corpus",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.latex_codec",
+    "math_tokenizer.eqgpt.latex_tokenizers"
+  ],
+  "src/math_tokenizer/eqgpt/latex_tokenizers.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.latex_codec",
+    "math_tokenizer.hard_ast_2026"
+  ],
+  "src/math_tokenizer/active_benchmark.py": [
+    "math_tokenizer",
+    "math_tokenizer.corpus"
+  ],
+  "src/math_tokenizer/eqgpt/pde_frozen.py": [
+    "math_tokenizer",
+    "math_tokenizer.corpus",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.data",
+    "math_tokenizer.eqgpt.frozen_math",
+    "math_tokenizer.eqgpt.latex_codec",
+    "math_tokenizer.eqgpt.latex_tokenizers",
+    "math_tokenizer.eqgpt.shared8_config"
+  ],
+  "src/math_tokenizer/eqgpt/evaluation.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.data"
+  ],
+  "src/math_tokenizer/eqgpt/latex_generation.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt"
+  ],
+  "src/math_tokenizer/eqgpt/shared8.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.data",
+    "math_tokenizer.eqgpt.frozen_math",
+    "math_tokenizer.eqgpt.latex_codec",
+    "math_tokenizer.eqgpt.models",
+    "math_tokenizer.eqgpt.pde_frozen",
+    "math_tokenizer.eqgpt.round1_config",
+    "math_tokenizer.eqgpt.round1_runtime",
+    "math_tokenizer.eqgpt.shared8_config",
+    "math_tokenizer.eqgpt.tokenizer_adapters"
+  ],
+  "scripts/audit_paper_upstream636.py": [
+    "math_tokenizer.eqgpt.compact_alphabet",
+    "math_tokenizer.eqgpt.latex_codec"
+  ],
+  "src/math_tokenizer/eqgpt/compact_alphabet.py": [
+    "math_tokenizer",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.latex_tokenizers",
+    "math_tokenizer.hard_ast_2026"
+  ],
+  "scripts/paper_upstream636_20261114.py": [
+    "math_tokenizer.corpus",
+    "math_tokenizer.eqgpt.compact_alphabet",
+    "math_tokenizer.eqgpt.latex_codec",
+    "math_tokenizer.pde_protocol",
+    "math_tokenizer.structure_v2",
+    "scripts.upstream_metrics",
+    "scripts.upstream_tokenizers"
+  ],
+  "scripts/upstream_metrics.py": [
+    "math_tokenizer.metrics_v2"
+  ],
+  "src/math_tokenizer/metrics_v2.py": [
+    "math_tokenizer",
+    "math_tokenizer.ast",
+    "math_tokenizer.structure_v2"
+  ],
+  "scripts/upstream_tokenizers.py": [
+    "math_tokenizer.baselines",
+    "math_tokenizer.baselines_v6",
+    "math_tokenizer.corpus"
+  ],
+  "src/math_tokenizer/baselines_v6.py": [
+    "math_tokenizer",
+    "math_tokenizer.baselines",
+    "math_tokenizer.corpus",
+    "math_tokenizer.frontend_v6",
+    "math_tokenizer.rl_vocab_v5"
+  ],
+  "src/math_tokenizer/baselines.py": [
+    "math_tokenizer"
+  ],
+  "src/math_tokenizer/rl_vocab_v5.py": [
+    "math_tokenizer",
+    "math_tokenizer.bpe",
+    "math_tokenizer.corpus"
+  ],
+  "src/math_tokenizer/pde_protocol.py": [
+    "math_tokenizer"
+  ],
+  "scripts/summarize_stage1_20261113.py": [],
+  "scripts/monitor_stage01_20261113.py": [],
+  "scripts/queue_search_stage1_20261113.py": [],
+  "scripts/search_stage1_20261113.py": [
+    "math_tokenizer.corpus",
+    "math_tokenizer.eqgpt",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.compact_alphabet",
+    "math_tokenizer.eqgpt.existing_surrogate",
+    "math_tokenizer.eqgpt.expanded_corpus",
+    "math_tokenizer.eqgpt.latex_tokenizers",
+    "math_tokenizer.eqgpt.models",
+    "math_tokenizer.eqgpt.paired_pipeline",
+    "math_tokenizer.eqgpt.shared8_config",
+    "math_tokenizer.eqgpt.stage1_search_20261113",
+    "math_tokenizer.eqgpt.tokenizer_adapters"
+  ],
+  "scripts/queue_stage1_20261113.py": [],
+  "scripts/pretrain_stage1_20261113.py": [
+    "math_tokenizer.corpus",
+    "math_tokenizer.eqgpt.author",
+    "math_tokenizer.eqgpt.cached_batches",
+    "math_tokenizer.eqgpt.compact_alphabet",
+    "math_tokenizer.eqgpt.latex_codec",
+    "math_tokenizer.eqgpt.latex_tokenizers",
+    "math_tokenizer.eqgpt.models",
+    "math_tokenizer.eqgpt.round1_runtime",
+    "math_tokenizer.eqgpt.study3_corpus",
+    "math_tokenizer.eqgpt.tokenizer_adapters"
+  ]
+}

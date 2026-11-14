@@ -1,0 +1,8 @@
+{
+  "best_epoch": 10,
+  "best_validation_loss": 2.0658977688181612,
+  "epochs": 25,
+  "smoke": false,
+  "stopped_by": "early_stopping",
+  "selection": "best validation token cross entropy; frozen before downstream testing"
+}

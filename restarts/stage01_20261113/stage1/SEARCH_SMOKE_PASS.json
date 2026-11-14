@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "sft": "cosine_per_cycle",
+  "checks": [
+    {
+      "arm": "eqgpt_reference",
+      "mode": "legacy",
+      "sft_lr": [
+        1e-05,
+        9.054634122155991e-06,
+        6.57963412215599e-06,
+        3.5203658778440103e-06,
+        1.0453658778440107e-06
+      ],
+      "post_scheduler_lr": 1e-07,
+      "attempts": 4,
+      "evaluated": 4
+    },
+    {
+      "arm": "ast_bpe_450",
+      "mode": "model",
+      "sft_lr": [
+        1e-05,
+        9.054634122155991e-06,
+        6.57963412215599e-06,
+        3.5203658778440103e-06,
+        1.0453658778440107e-06
+      ],
+      "post_scheduler_lr": 1e-07,
+      "attempts": 11,
+      "evaluated": 4
+    },
+    {
+      "arm": "ast_bpe_450",
+      "mode": "mix20",
+      "sft_lr": [
+        1e-05,
+        9.054634122155991e-06,
+        6.57963412215599e-06,
+        3.5203658778440103e-06,
+        1.0453658778440107e-06
+      ],
+      "post_scheduler_lr": 1e-07,
+      "attempts": 15,
+      "evaluated": 4
+    }
+  ],
+  "source_hashes": {
+    "scripts/search_stage1_20261113.py": "20bcf899934ae7509c606726f52fd14fc4aa8c9240fbc8c8fbdac978fbc9175c",
+    "src/math_tokenizer/eqgpt/stage1_search_20261113.py": "c75ca967307bb828f8f7924e40c0d621bb2f5fdfe9fddf97f14c490ca79bc219",
+    "restarts/stage01_20261113/stage1/search_code/sampler.py": "75403c0002fe48dc6740ced04cd4471e088cce3d9f17bc0e8db464fc2ac2979c"
+  }
+}

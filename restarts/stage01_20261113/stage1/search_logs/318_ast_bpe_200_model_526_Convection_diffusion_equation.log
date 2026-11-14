@@ -1,0 +1,112 @@
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 823, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  4.98it/s]100%|██████████| 1/1 [00:00<00:00,  4.97it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 77.39it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 78.06it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 74.44it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 76.65it/s]
+STUDY3_CYCLE Convection_diffusion_equation ast_bpe 1
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 757, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 55.68it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 83.71it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 73.12it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 84.96it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 76.87it/s]
+STUDY3_CYCLE Convection_diffusion_equation ast_bpe 2
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 800, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 61.87it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 78.16it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 71.78it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 89.11it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 83.50it/s]
+STUDY3_CYCLE Convection_diffusion_equation ast_bpe 3
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: overflow encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 703, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 56.65it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 77.69it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 72.33it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 75.89it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 74.85it/s]
+STUDY3_CYCLE Convection_diffusion_equation ast_bpe 4
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+/data1/users/liugang/src/eq-bpe/project/eqgpt_original/code/continue_train_GPT.py:scoring_fixes:215: RuntimeWarning: divide by zero encountered in divide
+CANDIDATE_BUDGET {'target': 400, 'attempts': 729, 'evaluated': 400, 'cap': 5000}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 13.76it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 80.62it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 73.56it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 74.77it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 83.21it/s]
+STUDY3_CYCLE Convection_diffusion_equation ast_bpe 5
+CASE_COMPLETE 318 ast_bpe_200 8 526 Convection_diffusion_equation

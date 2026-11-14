@@ -1,0 +1,19 @@
+{
+  "total": 840,
+  "finished": 840,
+  "pending": 0,
+  "active": [],
+  "failed": [],
+  "updated": 1794632047.2105513,
+  "gpu": "GPU-e857f4d0-daa6-f33d-3dc8-927f15ab7d59",
+  "gpus": [
+    "GPU-e857f4d0-daa6-f33d-3dc8-927f15ab7d59",
+    "GPU-ba72db90-47e9-38fd-0e9e-905c3b1798b5"
+  ],
+  "max_workers": 12,
+  "max_workers_per_gpu": 6,
+  "new_worker_cap_GiB": 14,
+  "max_reserved_GiB_per_gpu": 84,
+  "memory_limit_GiB_per_gpu": 92,
+  "sft": "cosine 1e-5 to 1e-7;5 epochs per cycle"
+}

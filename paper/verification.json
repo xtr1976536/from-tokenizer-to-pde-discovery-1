@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "pages": 11,
+  "main_seed": 525,
+  "main_case_columns": 8,
+  "main_figures": 3,
+  "title_top_pt": 80.15,
+  "reference_title_top_pt": 80.1,
+  "main_means_and_sd_removed": true,
+  "novelty_recomputed_for_seed525": true,
+  "visual_review": "all pages reviewed; full-width case tables; mint/lavender figures; appendix sections kept with tables",
+  "best_values_bold": true
+}

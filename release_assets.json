@@ -1,0 +1,81 @@
+{
+  "tag": "v1.0.0",
+  "archives": [
+    {
+      "archive": "stage1-results",
+      "format": "tar.zst",
+      "bytes": 758228015,
+      "sha256": "4c02f55b0a419b03caa90096f43cffafc896f3ebc8239342c178aff04777cf80",
+      "parts": [
+        {
+          "name": "stage1-results.tar.zst.part000",
+          "bytes": 758228015,
+          "sha256": "4c02f55b0a419b03caa90096f43cffafc896f3ebc8239342c178aff04777cf80"
+        }
+      ]
+    },
+    {
+      "archive": "stage1-best-checkpoints",
+      "format": "tar.zst",
+      "bytes": 8438818250,
+      "sha256": "15e7969e83c1e7ae8d58f0d16b84cd8e412aba5e55912ab2082a3378b70650d2",
+      "parts": [
+        {
+          "name": "stage1-best-checkpoints.tar.zst.part000",
+          "bytes": 805306368,
+          "sha256": "264a5b918bdf65100d124e27e360398aa37c37d5294bf435f5e6d5a90581ca45"
+        },
+        {
+          "name": "stage1-best-checkpoints.tar.zst.part001",
+          "bytes": 805306368,
+          "sha256": "0b11c5309ea502e7ae86b8e2eb0d10797b3b3f9f7015246c9e2fd84335715e7f"
+        },
+        {
+          "name": "stage1-best-checkpoints.tar.zst.part002",
+          "bytes": 805306368,
+          "sha256": "ca6394ee12dc5f06af5c8aec5c0becc504c50aa7f9e1cbb18ae8dcafe8c000af"
+        },
+        {
+          "name": "stage1-best-checkpoints.tar.zst.part003",
+          "bytes": 805306368,
+          "sha256": "78ac509904a710771d6a13af58b2d50e69a378f9194e3671f0020ffffd6b73c4"
+        },
+        {
+          "name": "stage1-best-checkpoints.tar.zst.part004",
+          "bytes": 805306368,
+          "sha256": "547b3e4d89a0458699991cc21c3457f4d71e62a68252d109753e2e7ff47c16e5"
+        },
+        {
+          "name": "stage1-best-checkpoints.tar.zst.part005",
+          "bytes": 805306368,
+          "sha256": "b78b5dccb6a9aad6c8fc978560d72e6b1c822eb2de9ebb159bfe521cf17ff3fd"
+        },
+        {
+          "name": "stage1-best-checkpoints.tar.zst.part006",
+          "bytes": 805306368,
+          "sha256": "298b348fc9d77f0a1d4fbe9b67f2fb4fd8541930ac1ace769f52ae41a3952a52"
+        },
+        {
+          "name": "stage1-best-checkpoints.tar.zst.part007",
+          "bytes": 805306368,
+          "sha256": "7a2476ab167f575d9219365c80404086a2d1b83af419697bc09d52a80f08a4b4"
+        },
+        {
+          "name": "stage1-best-checkpoints.tar.zst.part008",
+          "bytes": 805306368,
+          "sha256": "9596cf59025f066fd8fd6f031d700bb4e4c0c3d57c8204dbeda0da932ab0ca35"
+        },
+        {
+          "name": "stage1-best-checkpoints.tar.zst.part009",
+          "bytes": 805306368,
+          "sha256": "4e7d0e176c64531e9adcba6c08f3b4b72a882ef69cfceac81038b78aeeae4f18"
+        },
+        {
+          "name": "stage1-best-checkpoints.tar.zst.part010",
+          "bytes": 385754570,
+          "sha256": "2d304e39e899297eeb862d3f534b1599cfa47393bfee992621c092203ae2ce2d"
+        }
+      ]
+    }
+  ]
+}

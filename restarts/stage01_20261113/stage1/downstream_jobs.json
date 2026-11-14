@@ -1,0 +1,6722 @@
+[
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 212,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 318,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 424,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 530,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 525,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 526,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "eqgpt_reference",
+    "sampling": "legacy",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_200",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_300",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "model",
+    "random_fraction": 0.0
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Wave_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Convection_diffusion_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KG_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Burgers_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Eq_6_2_12",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "PDE_divide",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "KdV_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  },
+  {
+    "scale": 636,
+    "seed": 527,
+    "case": "Chaffee_Infante_equation",
+    "arm": "ast_bpe_450",
+    "sampling": "mix20",
+    "random_fraction": 0.2
+  }
+]

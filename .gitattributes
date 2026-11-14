@@ -1,0 +1,2 @@
+# Preserve exact archived bytes, including the pinned upstream CRLF source files.
+* -text

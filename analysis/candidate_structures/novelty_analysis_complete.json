@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "paired_groups": 56,
+  "large_runs": 168,
+  "small_runs": 168,
+  "run_definition_rows": 840,
+  "training212_structures": 165,
+  "training636_structures": 547,
+  "added_train_structures_vs_full212": 376,
+  "small_training_terms": 106,
+  "large_training_terms": 270,
+  "added_term_motifs": 165,
+  "seconds": 35.795639753341675
+}

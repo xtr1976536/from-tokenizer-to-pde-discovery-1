@@ -1,0 +1,15 @@
+{
+  "round": 1,
+  "status": "PASS",
+  "formal_pretrains": 60,
+  "formal_discovery_cases": 840,
+  "original_manifest_files": 6497,
+  "git_original_files": 1397,
+  "release_original_files": 5100,
+  "secret_scan": "PASS",
+  "obsolete_optimizer_smoke_and_old_upstream_excluded": true,
+  "all_git_files_below_100MiB": true,
+  "dependency_closure_recorded": true,
+  "latest_paper_revision": 2,
+  "third_party_licenses_retained": true
+}

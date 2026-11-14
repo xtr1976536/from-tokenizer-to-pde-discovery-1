@@ -1,0 +1,426 @@
+{
+  "scale": 424,
+  "arm": "eqgpt_reference",
+  "train_sources": 382,
+  "validation_sources": 42,
+  "train_samples": 12224,
+  "validation_samples": 1344,
+  "best_epoch": 6,
+  "best_validation_loss": 1.8269237279891968,
+  "history": [
+    {
+      "epoch": 1,
+      "learning_rate": 0.0001,
+      "train_loss": 2.101975987354914,
+      "train": {
+        "loss": 1.845078997139672,
+        "accuracy": 0.4153030114484818,
+        "tokens": 128576,
+        "nats_per_byte": 0.38424004408143475
+      },
+      "validation": {
+        "loss": 2.0273147087830763,
+        "accuracy": 0.39302884615384615,
+        "tokens": 13312,
+        "nats_per_byte": 0.39189726712535305,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 16.891857385635376
+    },
+    {
+      "epoch": 2,
+      "learning_rate": 9.99938933078422e-05,
+      "train_loss": 1.818092020849387,
+      "train": {
+        "loss": 1.7031891928673266,
+        "accuracy": 0.4479062966650075,
+        "tokens": 128576,
+        "nats_per_byte": 0.3546913121665242
+      },
+      "validation": {
+        "loss": 1.909528292142428,
+        "accuracy": 0.4153395432692308,
+        "tokens": 13312,
+        "nats_per_byte": 0.36912814569296004,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 18.125309228897095
+    },
+    {
+      "epoch": 3,
+      "learning_rate": 9.997557473810371e-05,
+      "train_loss": 1.7111051281293232,
+      "train": {
+        "loss": 1.6254114561142643,
+        "accuracy": 0.47038327526132406,
+        "tokens": 128576,
+        "nats_per_byte": 0.3384939997235987
+      },
+      "validation": {
+        "loss": 1.8702052648250873,
+        "accuracy": 0.4180438701923077,
+        "tokens": 13312,
+        "nats_per_byte": 0.3615266682933254,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 12.361392498016357
+    },
+    {
+      "epoch": 4,
+      "learning_rate": 9.994504881061753e-05,
+      "train_loss": 1.6358312281469505,
+      "train": {
+        "loss": 1.564036191310854,
+        "accuracy": 0.48985813837730213,
+        "tokens": 128576,
+        "nats_per_byte": 0.3257125228924542
+      },
+      "validation": {
+        "loss": 1.8521576753029456,
+        "accuracy": 0.4202223557692308,
+        "tokens": 13312,
+        "nats_per_byte": 0.35803791492845044,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 16.843669414520264
+    },
+    {
+      "epoch": 5,
+      "learning_rate": 9.990232305719945e-05,
+      "train_loss": 1.5756940792004268,
+      "train": {
+        "loss": 1.5076723620925987,
+        "accuracy": 0.5049464907914385,
+        "tokens": 128576,
+        "nats_per_byte": 0.3139746838855635
+      },
+      "validation": {
+        "loss": 1.833395508619455,
+        "accuracy": 0.4248798076923077,
+        "tokens": 13312,
+        "nats_per_byte": 0.35441102768851923,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 14.39517879486084
+    },
+    {
+      "epoch": 6,
+      "learning_rate": 9.984740801978984e-05,
+      "train_loss": 1.522360062847535,
+      "train": {
+        "loss": 1.4708589579466862,
+        "accuracy": 0.5120240169238427,
+        "tokens": 128576,
+        "nats_per_byte": 0.30630824572560306
+      },
+      "validation": {
+        "loss": 1.8269237279891968,
+        "accuracy": 0.42856069711538464,
+        "tokens": 13312,
+        "nats_per_byte": 0.3531599771577629,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 14.93537974357605
+    },
+    {
+      "epoch": 7,
+      "learning_rate": 9.978031724785246e-05,
+      "train_loss": 1.472458780432741,
+      "train": {
+        "loss": 1.4276571468431123,
+        "accuracy": 0.5272445868591339,
+        "tokens": 128576,
+        "nats_per_byte": 0.29731141370455194
+      },
+      "validation": {
+        "loss": 1.8361064470731294,
+        "accuracy": 0.43539663461538464,
+        "tokens": 13312,
+        "nats_per_byte": 0.3549350752706421,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 15.844825506210327
+    },
+    {
+      "epoch": 8,
+      "learning_rate": 9.97010672950314e-05,
+      "train_loss": 1.4247112981975079,
+      "train": {
+        "loss": 1.4109541668471797,
+        "accuracy": 0.5325799527127925,
+        "tokens": 128576,
+        "nats_per_byte": 0.2938329969105405
+      },
+      "validation": {
+        "loss": 1.880445700425368,
+        "accuracy": 0.43028846153846156,
+        "tokens": 13312,
+        "nats_per_byte": 0.3635062320524875,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 15.891732692718506
+    },
+    {
+      "epoch": 9,
+      "learning_rate": 9.960967771506666e-05,
+      "train_loss": 1.3820338503768046,
+      "train": {
+        "loss": 1.381802084672623,
+        "accuracy": 0.5432040194126431,
+        "tokens": 128576,
+        "nats_per_byte": 0.2877620387796517
+      },
+      "validation": {
+        "loss": 1.9133559740506685,
+        "accuracy": 0.42983774038461536,
+        "tokens": 13312,
+        "nats_per_byte": 0.36986806933321476,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 18.378851890563965
+    },
+    {
+      "epoch": 10,
+      "learning_rate": 9.950617105696959e-05,
+      "train_loss": 1.3440223361055057,
+      "train": {
+        "loss": 1.3417429750745364,
+        "accuracy": 0.5576235067197611,
+        "tokens": 128576,
+        "nats_per_byte": 0.2794196783377987
+      },
+      "validation": {
+        "loss": 1.9281077568347638,
+        "accuracy": 0.4395282451923077,
+        "tokens": 13312,
+        "nats_per_byte": 0.3727197150758651,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 12.526649236679077
+    },
+    {
+      "epoch": 11,
+      "learning_rate": 9.939057285945931e-05,
+      "train_loss": 1.316224970544378,
+      "train": {
+        "loss": 1.327187823916977,
+        "accuracy": 0.5620644599303136,
+        "tokens": 128576,
+        "nats_per_byte": 0.27638854962674475
+      },
+      "validation": {
+        "loss": 1.9490684912754939,
+        "accuracy": 0.43960336538461536,
+        "tokens": 13312,
+        "nats_per_byte": 0.37677160426143375,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 5.596566915512085
+    },
+    {
+      "epoch": 12,
+      "learning_rate": 9.92629116446613e-05,
+      "train_loss": 1.2943202642103036,
+      "train": {
+        "loss": 1.3070764370733616,
+        "accuracy": 0.5660465405674465,
+        "tokens": 128576,
+        "nats_per_byte": 0.27220032777862374
+      },
+      "validation": {
+        "loss": 1.9334950630481427,
+        "accuracy": 0.443359375,
+        "tokens": 13312,
+        "nats_per_byte": 0.3737611274293807,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 14.273372411727905
+    },
+    {
+      "epoch": 13,
+      "learning_rate": 9.912321891107009e-05,
+      "train_loss": 1.2608495019376278,
+      "train": {
+        "loss": 1.2663848686123322,
+        "accuracy": 0.5832659283225485,
+        "tokens": 128576,
+        "nats_per_byte": 0.26372625697545093
+      },
+      "validation": {
+        "loss": 1.9367392796736498,
+        "accuracy": 0.43997896634615385,
+        "tokens": 13312,
+        "nats_per_byte": 0.37438826224174643,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 17.97462773323059
+    },
+    {
+      "epoch": 14,
+      "learning_rate": 9.89715291257774e-05,
+      "train_loss": 1.2407754647235076,
+      "train": {
+        "loss": 1.2486161820149173,
+        "accuracy": 0.5876135515181683,
+        "tokens": 128576,
+        "nats_per_byte": 0.2600259054284201
+      },
+      "validation": {
+        "loss": 1.968861726614145,
+        "accuracy": 0.4374248798076923,
+        "tokens": 13312,
+        "nats_per_byte": 0.3805978058882362,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 9.440386056900024
+    },
+    {
+      "epoch": 15,
+      "learning_rate": 9.880787971596799e-05,
+      "train_loss": 1.217830757300059,
+      "train": {
+        "loss": 1.2189205524754085,
+        "accuracy": 0.5935788949726232,
+        "tokens": 128576,
+        "nats_per_byte": 0.2538417528685701
+      },
+      "validation": {
+        "loss": 1.975314085300152,
+        "accuracy": 0.4325420673076923,
+        "tokens": 13312,
+        "nats_per_byte": 0.3818451019911075,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 10.033363103866577
+    },
+    {
+      "epoch": 16,
+      "learning_rate": 9.863231105968498e-05,
+      "train_loss": 1.1861506775021553,
+      "train": {
+        "loss": 1.1879956476601752,
+        "accuracy": 0.6020797038327527,
+        "tokens": 128576,
+        "nats_per_byte": 0.2474016021715862
+      },
+      "validation": {
+        "loss": 1.9767808363987849,
+        "accuracy": 0.43509615384615385,
+        "tokens": 13312,
+        "nats_per_byte": 0.38212863751946774,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 14.338718891143799
+    },
+    {
+      "epoch": 17,
+      "learning_rate": 9.844486647586723e-05,
+      "train_loss": 1.1694422084838152,
+      "train": {
+        "loss": 1.2130762620492026,
+        "accuracy": 0.5927311473369836,
+        "tokens": 128576,
+        "nats_per_byte": 0.25262467196608773
+      },
+      "validation": {
+        "loss": 1.9787760972976685,
+        "accuracy": 0.43419471153846156,
+        "tokens": 13312,
+        "nats_per_byte": 0.38251433851107347,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 17.879040718078613
+    },
+    {
+      "epoch": 18,
+      "learning_rate": 9.824559221366101e-05,
+      "train_loss": 1.1523334868252277,
+      "train": {
+        "loss": 1.1806950362657895,
+        "accuracy": 0.608519474863116,
+        "tokens": 128576,
+        "nats_per_byte": 0.24588124057820784
+      },
+      "validation": {
+        "loss": 2.0273887744316688,
+        "accuracy": 0.4416316105769231,
+        "tokens": 13312,
+        "nats_per_byte": 0.391911584648501,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 8.033889770507812
+    },
+    {
+      "epoch": 19,
+      "learning_rate": 9.803453744100869e-05,
+      "train_loss": 1.1346549515922864,
+      "train": {
+        "loss": 1.1630625171765812,
+        "accuracy": 0.6114204828272772,
+        "tokens": 128576,
+        "nats_per_byte": 0.2422092460876699
+      },
+      "validation": {
+        "loss": 2.034792184829712,
+        "accuracy": 0.4358473557692308,
+        "tokens": 13312,
+        "nats_per_byte": 0.3933427271789778,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 19.16567587852478
+    },
+    {
+      "epoch": 20,
+      "learning_rate": 9.781175423251735e-05,
+      "train_loss": 1.119795935228467,
+      "train": {
+        "loss": 1.1354580419226152,
+        "accuracy": 0.6194313091090095,
+        "tokens": 128576,
+        "nats_per_byte": 0.2364605790631838
+      },
+      "validation": {
+        "loss": 2.0847245179689846,
+        "accuracy": 0.439453125,
+        "tokens": 13312,
+        "nats_per_byte": 0.40299507410552865,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 9.616356611251831
+    },
+    {
+      "epoch": 21,
+      "learning_rate": 9.757729755661011e-05,
+      "train_loss": 1.1011751132706802,
+      "train": {
+        "loss": 1.1205517606037418,
+        "accuracy": 0.6264543927327029,
+        "tokens": 128576,
+        "nats_per_byte": 0.2333563270501625
+      },
+      "validation": {
+        "loss": 2.2001714523021993,
+        "accuracy": 0.4303635817307692,
+        "tokens": 13312,
+        "nats_per_byte": 0.4253119536048861,
+        "nats_per_byte_definition": "summed teacher-forced NLL including EOS / rendered LaTeX UTF8 bytes excluding controls"
+      },
+      "seconds": 19.14623761177063
+    }
+  ],
+  "settings": {
+    "layers": 6,
+    "positions": 72,
+    "batch": 128,
+    "lr": 0.0001,
+    "clip": 1,
+    "seed": 527,
+    "early_stopping": true,
+    "patience": 15,
+    "min_delta": 1e-05,
+    "schedule": "cosine",
+    "eta_min": 1e-06,
+    "T_max": 200,
+    "max_epochs": 200
+  }
+}

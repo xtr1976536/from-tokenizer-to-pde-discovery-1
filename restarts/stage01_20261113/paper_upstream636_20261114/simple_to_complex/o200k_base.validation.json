@@ -1,0 +1,23 @@
+{
+  "formulas": 27,
+  "sources": 21,
+  "compression_ratio": 1.7297297297297298,
+  "method_initial_compression_ratio": 1.7297297297297298,
+  "cmd_pct": 0.0,
+  "num_pct": 100.0,
+  "counts": {
+    "initial_character_tokens": 2112,
+    "initial_method_tokens": 2112,
+    "final_tokens": 1221,
+    "commands": 64,
+    "commands_intact": 0,
+    "numbers": 68,
+    "numbers_intact": 68
+  },
+  "test_ids_sha256": "1af341015596c58084de1de2805fbed1079b0c06f5e6a8bb8e58a401d2493fab",
+  "protocol": "simple_to_complex",
+  "method": "o200k_base",
+  "split": "validation",
+  "vocab_size": 200019,
+  "encoding_metric_seconds": 0.0030355770140886307
+}

@@ -1,0 +1,273 @@
+% !TEX program = xelatex
+\documentclass[UTF8,fontset=mac,10pt,letterpaper]{ctexart}
+\usepackage[textwidth=5.5in,textheight=9.2in,top=.8in]{geometry}
+\usepackage{pifont}
+\usepackage{fontspec,newtxmath,amsmath,graphicx,booktabs,array,longtable,multirow}
+\usepackage[authoryear,round]{natbib}
+\usepackage{xurl,hyperref,caption,fancyhdr,microtype,setspace}
+\usepackage[section]{placeins}
+\setmainfont{texgyretermes-regular.otf}[BoldFont=texgyretermes-bold.otf,ItalicFont=texgyretermes-italic.otf,BoldItalicFont=texgyretermes-bolditalic.otf]
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black,pdftitle={从分词器到pde发现}}
+\captionsetup{font=small,labelfont=bf,labelsep=quad,skip=5pt}
+\setlength{\parindent}{1em}\setlength{\parskip}{2pt}\setstretch{1.0}
+\setlength{\textfloatsep}{12pt}\setlength{\floatsep}{10pt}\setlength{\intextsep}{10pt}
+\setlength{\emergencystretch}{1.5em}\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.15}
+\ctexset{section={format=\large\bfseries,beforeskip=13pt,afterskip=6pt},subsection={format=\normalsize\bfseries,beforeskip=9pt,afterskip=4pt}}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\normalsize 从分词器到pde发现}\fancyfoot[C]{\small\thepage}\setlength{\headheight}{13pt}\setlength{\headsep}{18.9pt}\addtolength{\topmargin}{6.1pt}\setlength{\footskip}{38pt}\renewcommand{\headrulewidth}{.3pt}
+\title{从分词器到pde发现}\author{}\date{}
+\makeatletter\renewcommand{\maketitle}{\vspace*{2.5pt}\noindent\hspace*{.4pt}{\LARGE\bfseries\@title\par}\vspace{14pt}}\makeatother
+\newcommand{\fig}[3]{\begin{figure}[tb]\centering\includegraphics[width=#2\linewidth]{figures/#1.pdf}\caption{#3}\label{fig:#1}\end{figure}}
+\begin{document}
+\maketitle\thispagestyle{fancy}
+\begin{abstract}
+从观测数据中发现偏微分方程，需要同时学习合理的表达方式并筛选与数据相符的候选方程。本文研究结构感知分词对这一过程的影响。在EqGPT框架中，我们以AST-BPE替换原有分词方式，并取消生成时的语法约束。首先，在636条方程语料上，将AST-BPE与Qwen2.5、Llama 3和\texttt{o200k\_base}分词器进行比较；随后，在八个单场偏微分方程案例上评估方程发现能力。AST-BPE在测试公式上保持完整LaTeX命令，300和450容量的压缩率分别为6.98和8.50字节/token。下游实验中，300容量与20\%随机生成的组合在212和636条语料下分别在八个案例中识别出六个和三个正确结构，原始EqGPT分别识别出三个和两个。进一步分析发现，大语料使生成结构更加多样，但正确目标结构在候选中的比例下降；部分非目标新结构因拟合效果接近、项数较少而获得更高评分，进入最终候选集合。结果表明，结构表达能力的提升需要与候选方程的筛选机制相结合。
+\end{abstract}
+
+\section{引言}
+偏微分方程能够用简洁的数学关系描述场的时空变化。从观测数据中识别方程，不仅要拟合已知数值，还要确定导数、非线性项及其组合。基于候选库的稀疏回归提供了一条有效路径\citep{rudy2017pde}；生成式方法则直接学习已有方程中的组合规律，使搜索不局限于预先列出的整项。EqGPT将数学手册中的方程编码为序列，并通过生成、评分和微调的循环寻找与数据相符的方程\citep{xu2025eqgpt}。
+
+方程序列如何切分，是生成模型学习数学表达的基础。通用分词器主要面向自然语言和代码，可能将一个LaTeX命令拆成多个token；固定的方程词表则将某些导数和复合项作为完整词项。两者在序列长度、可组合性和结构保持方面具有不同特点。Byte-pair encoding（BPE）通过反复合并频繁相邻片段学习子词\citep{sennrich2016bpe}，AST-BPE进一步利用抽象语法树约束合并\citep{muller2019astbpe}，为数学公式的分词提供了可选方案。
+
+本文围绕两个问题展开：结构感知分词能否改善PDE发现；扩大方程语料后，模型生成的候选及最终发现结果如何变化。我们先在与下游表示一致的636条语料上评估分词表现，再在212与636条语料和八个案例上进行方程发现。正文固定展示种子525，其余种子见附录。正文使用综合压缩与词表使用情况选出的300、450两种容量，并在讨论中比较其他容量和随机生成设置。
+
+本文的结果包括三个方面。首先，AST-BPE在较小词表下获得了更高的公式压缩率，并保持了完整LaTeX命令。其次，AST-BPE提高了小语料下的目标结构发现数量，300容量在大语料下也识别出更多正确结构。最后，候选级分析说明了语料扩展为何不一定带来更好的发现结果：生成的结构范围扩大，但部分高分、非目标新结构进入Top10，使和目标方程相同的候选在排序中落后。
+
+\section{前置知识与模型}
+\subsection{前置知识}
+\paragraph{三个通用分词器。}
+上游对照为Qwen2.5、Llama 3与\texttt{o200k\_base}。Qwen2.5和Llama 3均采用面向通用文本的子词表示\citep{qwen2025,grattafiori2024llama}；\texttt{o200k\_base}使用OpenAI发布的\texttt{tiktoken}实现\citep{openai2026tiktoken}。本实验只使用它们已发布的分词器，不调用相应语言模型权重。对照词表总容量分别为151,665、128,256和200,019。
+
+\paragraph{EqGPT。}
+EqGPT将方程写成由基本项和运算符组成的序列，即方程生成式表示（generative representation of equations，GRE），并以Transformer学习这些序列\citep{vaswani2017attention,xu2025eqgpt}。候选项的数值由观测场拟合网络及其导数得到，项间系数通过最小二乘拟合。高分候选用于后续监督微调（SFT），从而更新生成模型。EqGPT将以已有方程知识指导生成的训练过程称为科学增强训练（scientifically augmented training，SAT）。
+
+\subsection{与EqGPT的差别}
+本文在EqGPT框架中采用两项修改。
+
+\textbf{更换分词器。}原始EqGPT直接编码GRE基本项与运算符；本文先将GRE结构渲染为LaTeX，再使用AST-BPE编码。AST-BPE从未增强的训练公式学习词表，Transformer使用交换律增强后的序列训练。
+
+\textbf{取消生成时的SAT语法约束。}AST-BPE模型直接按token概率生成LaTeX，不使用原始EqGPT中与SAT相关的项、运算符交替语法掩码。分词学习阶段仍使用AST结构；取消的是生成阶段的语法约束。
+
+\section{实验设置}
+\subsection{八个PDE案例}
+我们使用表\ref{tab:cases}中的八个单场PDE案例，评价最终候选是否包含目标项结构。各配置在同一案例中使用相同的数值评分缓存。缓存由五层、每层50个神经元的Rational网络构建，每个案例使用10,000个观测点和10,000个评分点，不额外添加噪声。导数通过自动微分计算。
+
+\begin{table}[!htbp]
+\caption{八个目标方程。$u=u(x,t)$，下标表示偏导数；PDE-divide在$x\ne0$的区域评价。}\label{tab:cases}
+\centering\small
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}ll@{}}\toprule
+案例 & 目标方程\\\midrule
+Wave & $u_{tt}-u_{xx}=0$\\
+Convection--diffusion & $u_t+u_x-0.25u_{xx}=0$\\
+Klein--Gordon & $u_{tt}-0.5u_{xx}+5u=0$\\
+Burgers & $u_t+uu_x-0.1u_{xx}=0$\\
+Eq.\ 6.2.12 & $u_t+0.1u_{xt}+0.1u_x=0$\\
+PDE-divide & $u_t+u_x/x+0.25u_{xx}=0$\\
+KdV & $u_t+uu_x+0.0025u_{xxx}=0$\\
+Chaffee--Infante & $u_t-u_{xx}+u-u^3=0$\\\bottomrule
+\end{tabular*}
+\end{table}
+
+\subsection{训练语料与上游划分}
+下游比较212与636条两种语料。636条保留原始212条，并增加424条，覆盖输运、反应--扩散、波动、椭圆、色散和高阶方程等单场结构。扩展记录既包含直接来源方程，也包含对来源方程族明确选择函数或参数后的实例。每条记录保存来源和转换信息。下游训练/验证规模分别为191/21与572/64，每条公式通过加法、乘法交换律构造32个训练变体。
+
+上游实验重新使用这636条语料的GRE渲染LaTeX，不使用先前的其他公式语料。按来源、模板和规范化公式分组，划分为509条训练、64条验证和63条测试。AST-BPE词表仅由训练部分学习。简单到复杂的泛化实验沿用上述划分，从训练部分选出173条简单公式，在27条复杂验证公式和21条复杂测试公式上评价。简单、一般和复杂按既有公式复杂度得分的30\%、40\%、30\%分位划分。
+
+\subsection{训练与搜索参数}
+各模型使用六层Transformer。预训练采用余弦退火与验证集早停，最长200个epoch。每次PDE发现进行五轮搜索，每轮获得400个成功评分候选，再用高分候选进行五个epoch的SFT。SFT每轮重新进行余弦退火。正文的AST-BPE模型使用80\%模型分布与20\%均匀随机分布混合采样，即
+\begin{equation}
+ p(z\mid z_{<i})=0.8p_\theta(z\mid z_{<i})+0.2p_{\rm uniform}(z).
+\end{equation}
+实验运行525、526和527三个种子，正文仅展示固定种子525。完整参数及逐种子结果见附录\ref{app:params}与\ref{app:seeds}。
+
+\subsection{评估指标}
+\paragraph{分词表现。}
+压缩率$C$定义为源文本UTF-8字节数除以输出token数。命令完整率$I_{\rm cmd}$为完整LaTeX命令内部没有token边界的比例；数字完整率$I_{\rm num}$对数字串采用相同定义。学习子词使用率为
+\begin{equation}
+ U=\frac{\#\{j:c_j>0,\ j\text{为学习子词}\}}{\#\{j:j\text{为学习子词}\}},
+\end{equation}
+其中$c_j$是最终编码序列中的出现次数，不重复计入较长token内部包含的短子词；基础字符和控制符不计入分母。
+
+\paragraph{PDE发现。}
+Top1成功表示最终第一名候选与目标项结构相同，Top10成功表示最终十个候选中包含目标结构。各候选通过项次序规范化及既有命名算子展开规则比较。数值评分沿用EqGPT的拟合优度与项数惩罚：
+\begin{equation}\label{eq:reward}
+ r=\left(1-0.2\log_{10}M\right)R^2,
+\end{equation}
+其中$M$是实际评分矩阵列数。评分固定首项系数为1，拟合其余系数。评分用于排序，目标结构标签仅用于结果统计。
+
+\section{实验与结果}
+\subsection{上游分词实验}
+表\ref{tab:upstream}给出新的636条语料上8:1:1实验的测试结果。300与450容量均保持了完整LaTeX命令，压缩率分别为6.983和8.497，三个通用分词器为1.725--1.796。通用分词器的命令完整率为零，表示反斜杠与命令名之间存在切分。
+
+\begin{table}[!htbp]
+\caption{636语料的上游测试结果，测试集63条。$C$为字节/token，其余指标单位为\%。$U$仅统计本实验学习的子词，对固定通用词表不计算该指标。}\label{tab:upstream}
+\centering\small\input{tables/upstream_811.tex}
+\end{table}
+
+\fig{capacity_tradeoff}{1}{验证集上的压缩率与学习子词使用率。300容量具有较高使用率，450容量进一步提高压缩率；两者代表不同的权衡。}
+
+我们综合压缩率、命令完整性与学习子词使用率，选择300和450作为后续实验的两种配置。验证集上，容量由300增至450时，压缩率从7.235提高至8.967，使用率从38.4\%降至29.4\%。更大的词表并非每个条目都能在较小评价集中出现，因此压缩与使用率需要同时考察。完整容量扫描见附录\ref{app:capacity}。
+
+所有分词器在本表示下的数字完整率均为100\%。GRE渲染后的数值词项是单数字，该指标在本实验中不区分方法。简单到复杂实验见表\ref{tab:generalization}：AST-BPE的压缩率下降到5.426和6.138，但仍保持完整命令，并高于通用分词器的1.758--1.834。
+
+\begin{table}[!htbp]
+\caption{简单公式训练、复杂公式测试，测试集21条。指标与表\ref{tab:upstream}相同。}\label{tab:generalization}
+\centering\small\input{tables/upstream_simple_to_complex.tex}
+\end{table}
+
+\subsection{下游PDE发现实验}
+表\ref{tab:main}按八个案例逐一列出种子525的结果。每个单元格前一项表示Top1是否正确，后一项表示Top10是否包含正确结构。可以看到，在212条语料下，EqGPT识别出3个正确结构，AST-BPE 300和450分别识别出6个和7个。增加子词表达后，对流--扩散、Burgers等案例的正确结构能够被最终选中。
+
+\begin{table}[!htbp]
+\caption{八案例发现结果，种子525。\ding{51}表示成功，--表示未成功；每格依次为Top1/Top10。CD为对流--扩散，KG为Klein--Gordon，E6为Eq.\ 6.2.12，PD为PDE-divide，CI为Chaffee--Infante。总计列为两类成功案例数，组内最高值加粗。AST-BPE均混入20\%随机生成。}\label{tab:main}
+\centering\fontsize{8.5}{10}\selectfont\setlength{\tabcolsep}{2pt}\input{tables/main_results.tex}
+\end{table}
+
+然而，636条语料没有延续这一提升。EqGPT、AST-BPE 300和450的Top1分别为2、3和2个。恰恰相反的是，300容量的Top10仍然覆盖7个案例，与212条语料相同，但最终正确的Top1从6个降到3个。这说明，正确结构进入候选集合之后，排序仍然决定了最终发现结果。
+
+进一步看具体案例，Wave和KdV在两档语料中较容易恢复；Eq.\ 6.2.12仍然困难。事实上，Burgers、Chaffee--Infante等案例中，候选集合是否含有正确结构，与该结构能否排到第一，是两个不同的结果。因此，下面从候选结构的变化开始，进一步分析扩大语料后模型生成了什么，以及评分如何影响最终选择。
+
+\section{讨论}
+\subsection{语料扩展与新结构候选}
+为了理解表\ref{tab:main}中的变化，我们读取种子525下两档模型保存的全部候选及筛选轨迹。对于同一配置、同一案例，将212模型五轮搜索中出现过的可识别结构作为参照；636模型生成但参照集合中未出现的结构，称为本次新结构。比较前按评分程序去除重复项、规范项和因子的顺序，并展开已有命名算子。
+
+可以看到，扩大语料确实改变了生成内容。六种AST-BPE配置的96,000个大语料已评分候选中，有70,872个为新结构，占73.83\%。训练集中的方程项也由106种扩展到270种。新结构在最终480个Top10名额中占据264个，占55.0\%。因此，它们并不是仅仅出现在大量未被采用的生成结果中，而是实质性地参与了最终竞争。
+
+\fig{structure_analysis}{1}{语料扩展后的候选变化，种子525。左图比较两种主模型中新结构在已评分候选与最终Top10中的比例；右图汇总六种AST-BPE配置，比较正确目标结构在已评分候选中的比例。}
+
+然而，候选更加多样，并不意味着目标结构更加集中。小语料模型的正确结构出现比例为2.66\%，大语料模型仅为0.50\%。这说明，在固定的成功评分候选预算下，同样数量的候选中，目标之外的表达占比更高。虽然264个新结构Top10名额中也有3个为正确目标结构，但绝大多数没有带来目标方程的恢复。接下来的问题是：这些非目标结构为什么仍能获得足够高的分数？
+
+\subsection{新结构的评分与最终筛选}
+新结构能够进入Top10，关键在于评分并不只由是否恢复目标结构决定。评分同时奖励数据拟合和较少的项数；当两种结构都能较好地描述当前数值关系时，更少的项可能得到更高reward。
+
+我们进一步统计种子525的48次大语料AST-BPE实验。其中39次生成了可评分的正确结构，24次同时出现了比分数最高的正确结构更高的非目标新结构。这样的候选共出现150次，按每次运行内去重后累计为94种，并占据64个最终Top10名额。可以看到，这种排序现象并非仅出现在单个示例中。
+
+\paragraph{Chaffee--Infante实例。}
+在636语料、300容量、无随机生成、种子525的一次实验中，评分程序拟合出如下非目标新结构：
+\begin{equation}\label{eq:wrong}
+ \sin(x)u_{xx}+0.002141u_{tt}-0.911730u_{xx}=0.
+\end{equation}
+同次运行中的正确结构拟合结果为
+\begin{equation}\label{eq:correct}
+ u^3-1.008575u-0.998787u_t+0.999261u_{xx}=0.
+\end{equation}
+两式均使用原缓存的10,000个评分点。程序固定首项系数为1，因此式\eqref{eq:wrong}以$-\sin(x)u_{xx}$为拟合左端，式\eqref{eq:correct}以$-u^3$为左端。复算得到的reward与原记录相差小于$2\times10^{-9}$。
+
+\begin{table}[!htbp]
+\caption{两个候选的reward计算。正确结构的$R^2$更高，但四项惩罚更强。}\label{tab:reward}
+\centering\small
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrr@{}}\toprule
+候选 & $M$ & $R^2$ & $1-0.2\log_{10}M$ & reward\\\midrule
+非目标新结构 & 3 & 0.991153 & 0.904576 & \textbf{0.896573}\\
+正确结构 & 4 & \textbf{0.999207} & 0.879588 & 0.878891\\\bottomrule
+\end{tabular*}
+\end{table}
+
+由表\ref{tab:reward}可见，正确结构的拟合效果更好，但非目标式因为只有三项，最终评分更高。如果统一使用四项惩罚，非目标式评分为0.871807，低于正确式的0.878891。该实例直接展示了项数惩罚造成的排序逆转。
+
+扩大语料后，模型生成的方程结构更加多样，其中部分新结构候选方程与目标方程的拟合效果接近，但项数更少，因此获得了更高的reward。这使和目标方程相同的候选方程反而在排序中落后，难以被最终选中，从而降低了模型从数据中发现目标PDE的能力。
+
+\subsection{词表容量与随机生成}
+图\ref{fig:vocab_sampling}展示种子525的容量与采样对照。可以看到，212条语料下，200容量加入随机生成后，由4/8提高到7/8；300容量由5/8提高到6/8；450容量由5/8提高到7/8。随机生成帮助模型探索了不同候选，因而提高了这一档语料的正确结构发现数量。
+
+\fig{vocab_sampling}{1}{种子525下的词表容量与随机生成对照。不混入随机分布时按模型概率采样；20\% uniform表示混入均匀随机token。}
+
+然而，这一作用在636条语料下并不一致。200容量的Top1从1/8提高到2/8，300容量却从4/8降到3/8，而450容量仍为2/8。因此，更大的词表和更多的随机探索并不会自动叠加为更好的发现结果。结合前面的候选分析，扩大表达范围之后，还需要能够把和目标方程相同的候选保留在前列。
+
+进一步比较上游与下游，450容量始终具有更高压缩率，但在大语料上只有2/8的Top1，低于300容量的3/8。这说明，压缩率回答的是公式能否用更短序列表示；下游成功与否还取决于生成了哪些结构，以及这些结构如何被评分和筛选。两类实验因而需要结合起来理解。
+
+\section{总结}
+本文将AST-BPE用于EqGPT方程发现框架，并取消生成时的SAT语法约束。在新的636条语料上，AST-BPE以较小词表实现了较高压缩率和完整LaTeX命令编码；300与450容量体现了压缩与词表使用率之间的不同权衡。在种子525的八个案例中，212条语料下两种配置分别恢复6个和7个正确结构，高于EqGPT的3个；636条语料下300容量恢复3个，高于EqGPT的2个，450容量同样为2个。
+
+候选级分析进一步说明，语料扩展提高了生成结构的多样性，却降低了当前目标结构在候选中的比例。部分拟合较好、项数更少的非目标新结构获得了更高reward，并进入最终Top10。后续应将更丰富的结构表达与目标方程的评分、筛选相结合，使生成范围的扩展转化为更好的方程发现结果。
+
+\FloatBarrier
+\clearpage
+\renewcommand{\bibfont}{\small}
+\setlength{\bibsep}{2pt}
+\bibliographystyle{abbrvnat}
+\bibliography{references}
+\clearpage
+\appendix
+\section{完整实验参数与处理方式}\label{app:params}
+表\ref{tab:params}给出训练与搜索参数。全部发现实验使用同一案例的固定数值缓存，缓存种子525；模型初始化与搜索使用各自的实验种子。每个配置按验证交叉熵选取预训练检查点。
+
+\begin{table}[htbp]
+\caption{预训练、搜索和数值评分参数。}\label{tab:params}
+\centering\small
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}ll@{}}\toprule
+参数 & 取值\\\midrule
+Transformer层数 / 注意力头数 & 6 / 8\\
+模型维数 / 前馈维数 & 768 / 2048\\
+每头键、值维数 & 64 / 64\\
+位置容量 / 生成长度上限 & 72 / 70\\
+预训练优化器 / batch & Adam / 128\\
+预训练初始、最低学习率 & $10^{-4}$ / $10^{-6}$\\
+余弦周期 / epoch上限 & 200 / 200\\
+验证频率 & 每epoch一次\\
+早停patience / 最小改善 & 15 / $10^{-5}$\\
+梯度裁剪范数 & 1\\
+每式增强次数 & 32\\
+主实验词表容量（含三个控制符） & 300、450\\
+附加容量对照 & 200\\
+随机种子 & 525、526、527\\
+搜索轮数 / 每轮成功评分候选 & 5 / 400\\
+每轮尝试上限 & 5,000\\
+SFT epoch / 初始、最低学习率 & 5 / $10^{-5}$、$10^{-7}$\\
+SFT batch & 累计Top10中的候选序列（最多10）\\
+SFT余弦周期 & 每轮5个epoch，逐轮重新开始\\
+随机分布混合比例 & 20\%（附加对照为0\%）\\
+评分网络层数 / 宽度 / 激活 & 5 / 50 / Rational\\
+观测点 / 评分点 & 10,000 / 10,000\\
+额外噪声 & 0\\
+评分项数惩罚系数 & 0.2\\\bottomrule
+\end{tabular*}
+\end{table}
+
+\paragraph{场景假设与边界。}
+本文识别单场PDE项结构，系数在评分时拟合。数据、导数与评分坐标沿用各案例已固定的缓存，不新增统一裁边；原数据的初始、边界设置通过观测场体现。本实验不求解未来场，也不学习或施加未来场积分的边界条件。
+
+\paragraph{分数与结构统计。}
+先对生成结果作既有重复项整理，再计算评分；非有限评分被拒绝。比较结构时规范加法项和乘法因子的顺序，并使用既有命名算子展开规则。正文新结构的参照集合是同配置、同案例下212模型种子525的可识别候选，而不是原始训练集。主统计包含全部五轮；无法解析的尝试不赋予结构ID。最终Top10占比按名额计算，去重新结构进入率按每次运行中的已评分新结构种类计算。若某次运行没有生成可评分的正确结构，则不计算“高于正确结构最高分”的比较；正文48次大语料AST-BPE实验中有39次具有该比较分数。
+
+\clearpage
+\section{逐种子发现结果}\label{app:seeds}
+表\ref{tab:seeds}列出种子526和527的逐案例结果。各单元格含义与正文表\ref{tab:main}相同；模型采样指不混入均匀随机分布，随机指20\%混合采样。
+\begingroup
+\fontsize{7.5}{9}\selectfont
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.0}
+\begin{longtable}{rllccccccccr}
+\caption{其余随机种子的逐案例结构发现结果。}\label{tab:seeds}\\
+\toprule 语料 & 种子 & 配置 & Wave & CD & KG & Burgers & E6 & PD & KdV & CI & 总计\\\midrule\endfirsthead
+\multicolumn{12}{l}{\small 表\ref{tab:seeds}（续）}\\\toprule 语料 & 种子 & 配置 & Wave & CD & KG & Burgers & E6 & PD & KdV & CI & 总计\\\midrule\endhead
+\bottomrule\endfoot
+\input{tables/seed_rows.tex}
+\end{longtable}
+\endgroup
+\normalsize
+
+\clearpage
+\section{上游容量扫描}\label{app:capacity}
+表\ref{tab:capacity}只使用新的636语料上游验证集。学习子词使用率$U$与未使用比例之和为100\%。测试容量300、450在评价测试集之前已确定；通用分词器使用各自发布的固定词表。
+\begin{table}[htbp]
+\caption{8:1:1验证集的容量对照。除压缩率$C$外，数值均为\%。}\label{tab:capacity}
+\centering\small\input{tables/capacity_sweep.tex}
+\end{table}
+
+
+\section{候选评分分布}
+图\ref{fig:reward_distribution}补充正文中两种主模型的新、旧结构评分分布。每次运行内部先计算评分百分位，再汇总种子525的候选。分位数较低的新结构较多，但评分较高的部分仍然能够进入Top10；正文的具体方程进一步说明了项数惩罚如何改变排名。
+\begin{figure}[!htbp]\centering\includegraphics[width=\linewidth]{figures/reward_distribution.pdf}\caption{种子525下300、450容量随机生成模型的新、旧候选评分分布。虚线为均匀百分位参照。}\label{fig:reward_distribution}\end{figure}
+
+
+\clearpage
+\section{三个种子的候选结构统计}
+这里补充525、526和527三个种子的汇总。每个配置、每个案例以212模型三个种子的可识别候选合并为参照集合，统计636模型中的新结构。六种AST-BPE配置共包含144次运行、288,000个已评分候选。新结构占68.94\%，并占据49.44\%的最终Top10名额。
+\begin{table}[!htbp]
+\caption{三个种子的候选统计。高分新结构指评分高于同次运行正确结构最高分的非目标新结构，按运行内去重后累计；最后一列为其占据的Top10名额。}\centering\small
+\input{tables/three_seed_novelty.tex}
+\end{table}
+在有正确结构可比较的122次运行中，70次出现了评分更高的非目标新结构，共计297种，进入223个最终Top10名额。该统计与正文的单种子分析共同显示，候选范围扩大后，评分如何区分目标结构和其他高拟合结构，是最终选择中的关键。
+\end{document}
+
+

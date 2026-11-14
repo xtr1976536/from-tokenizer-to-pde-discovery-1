@@ -1,0 +1,7 @@
+arm,sampling,new_wrong_occurrences,new_wrong_unique,new_wrong_final_slots,new_wrong_final_unique,ge085_occurrences,ge085_unique,ge085_final_slots,ge090_occurrences,ge090_unique,ge090_final_slots,above_correct_occurrences,above_correct_unique,above_correct_final_slots,above_correct_final_unique,above_correct_any,correct_reference_available
+ast_bpe_200,mix20,32139,27408,92,91,1511,1099,85,20,20,20,24,23,23,23,9,19
+ast_bpe_200,model,32882,24770,138,128,2430,1480,132,164,102,52,174,106,58,54,14,20
+ast_bpe_300,mix20,33124,28627,113,110,1623,1195,112,30,24,22,31,25,23,23,11,22
+ast_bpe_300,model,31956,25584,113,112,1983,1369,110,60,43,34,66,48,39,39,12,21
+ast_bpe_450,mix20,35684,29478,136,129,1664,1099,125,51,40,37,52,39,36,35,12,19
+ast_bpe_450,model,32764,23921,120,117,2067,1177,109,66,46,35,90,56,44,42,12,21

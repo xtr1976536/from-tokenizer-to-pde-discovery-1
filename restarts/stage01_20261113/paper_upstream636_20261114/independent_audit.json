@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "records": 636,
+  "representation_matches_downstream": true,
+  "metrics_reaggregated": 44,
+  "usage_tables": 32,
+  "train_only_refitted_models": 4,
+  "train_validation_test_group_disjoint": true,
+  "baseline_vocabularies_fixed": true,
+  "source_sha256": "edd2ed05c797c487b9ba76e594a8ce8487805018824b344e5cbdfec6f2ff34b8",
+  "base_bytes": 42
+}

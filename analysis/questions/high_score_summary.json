@@ -1,0 +1,19 @@
+{
+  "new_wrong_occurrences": 198549,
+  "new_wrong_unique": 159788,
+  "new_wrong_final_slots": 712,
+  "new_wrong_final_unique": 687,
+  "ge085_occurrences": 11278,
+  "ge085_unique": 7419,
+  "ge085_final_slots": 673,
+  "ge090_occurrences": 391,
+  "ge090_unique": 275,
+  "ge090_final_slots": 200,
+  "above_correct_occurrences": 437,
+  "above_correct_unique": 297,
+  "above_correct_final_slots": 223,
+  "above_correct_final_unique": 216,
+  "above_correct_any": 70,
+  "correct_reference_available": 122,
+  "large_ast_runs": 144
+}
