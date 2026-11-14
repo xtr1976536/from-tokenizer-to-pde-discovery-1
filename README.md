@@ -38,6 +38,7 @@ python -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.lock.txt
 python -m pip install -e .
+export TIKTOKEN_CACHE_DIR="$PWD/data/tokenizers/tiktoken-cache"
 python scripts/verify_public_archive.py
 PYTHONPATH=.:src python scripts/paper_upstream636_20261114.py
 ```
