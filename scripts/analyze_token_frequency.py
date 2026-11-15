@@ -19,7 +19,7 @@ def run(output):
     text=structure_to_latex(r['gre_ids']);ids=m.encode(text);assert m.decode(ids)==text;count.update(ids)
    values=np.array([count[i] for i in range(len(m.vocab))]);total=int(values.sum());assert len(values)==size-3
    with (output/f'{scale}_{size}.csv').open('w',newline='') as f:
-    w=csv.writer(f);w.writerow(['display_id','model_id','content_id','token_hex','token','count','frequency_pct'])
+    w=csv.writer(f,lineterminator="\n");w.writerow(['display_id','model_id','content_id','token_hex','token','count','frequency_pct'])
     for i,payload in enumerate(m.vocab):w.writerow([i+1,i+3,i,payload.hex(),payload.decode(),int(values[i]),100*values[i]/total])
    summary.append(dict(corpus=scale,vocab_size=size,formulas=len(records),content_tokens=len(values),total_occurrences=total,used=int((values>0).sum()),unused=int((values==0).sum()),top10_share_pct=float(100*np.sort(values)[-10:].sum()/total),vocabulary_sha256=hashlib.sha256(json.dumps([v.hex() for v in m.vocab]).encode()).hexdigest(),source_sha256=hashlib.sha256(source.read_bytes()).hexdigest()))
  (output/'summary.json').write_text(json.dumps(summary,indent=2)+'\n');return summary
