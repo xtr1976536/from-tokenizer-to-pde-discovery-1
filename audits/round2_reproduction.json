@@ -1,0 +1,17 @@
+{
+  "round": 2,
+  "status": "PASS",
+  "fresh_public_source_download": true,
+  "imported_code_root": "/data1/users/liugang/src/eq-bpe/project/.stage01-publication-20261114/download-verification/archive-repository",
+  "original_eqgpt_provenance": "PASS",
+  "ast_bpe_vocabularies_loaded": 4,
+  "official_reference_tokenizers_loaded": 3,
+  "decode_roundtrips": 28,
+  "fixed_numerical_cache_cpu_replay": "PASS",
+  "automatic_cache_refit": false,
+  "python_files_compiled": 62,
+  "isolated_imported_modules": 25,
+  "shared_original_runtime_data_not_used": true,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "completed": 1794673516.2451062
+}

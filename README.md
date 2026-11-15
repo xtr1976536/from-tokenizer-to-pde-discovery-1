@@ -62,6 +62,12 @@ The scripts preserve the original experiments' GPU-UUID checks and output locati
 - Every discovery case contains 5 rounds × 400 successfully scored candidates. Full generation attempts, scores, selection outcomes and case diagnostics are retained.
 - Pretraining uses cosine annealing and early stopping. SFT uses five cosine-scheduled epochs per round. Fixed numerical cache seed 525 is separate from model/search seeds.
 
+## Verification and small sampled download
+
+Three checks were completed: full inventory/archive-content hashes and sensitive-file scan; fresh public-source tokenizer/cache replay; and a user-approved random GitHub readback. The last check restored 12 randomly selected complete cases (72 files), fetched 25 Git blobs, and compared three random byte ranges of large release parts. Every large part also matches GitHub’s SHA-256 digest. This is explicitly sampled readback, not a claim that all checkpoints were downloaded.
+
+The optional `verification-sample.tar.zst` release asset contains those 12 cases and can be used for a small inspection without downloading all weights. Its selection and hashes are in `audits/sample_selection.json`.
+
 ## Deliberate exclusions
 
 `audits/exclusions.json` records excluded paths and reasons. Exclusions are old versions, the superseded 1500-formula upstream study, temporary smoke tests, locks/caches, duplicated reports, and optimizer/RNG-only `progress.pt` snapshots. **All 60 validation-best model weights and every formal result and log are retained.** Shared libraries and original case assets are included because the latest entrypoints require them, not as old experiment versions.

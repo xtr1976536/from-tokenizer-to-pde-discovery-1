@@ -1,0 +1,119 @@
+{
+  "seed": 20261115,
+  "case_count": 12,
+  "selected_jobs": [
+    {
+      "scale": 318,
+      "seed": 527,
+      "case": "Eq_6_2_12",
+      "arm": "ast_bpe_300",
+      "sampling": "model",
+      "random_fraction": 0.0
+    },
+    {
+      "scale": 212,
+      "seed": 525,
+      "case": "Convection_diffusion_equation",
+      "arm": "ast_bpe_300",
+      "sampling": "model",
+      "random_fraction": 0.0
+    },
+    {
+      "scale": 424,
+      "seed": 527,
+      "case": "Chaffee_Infante_equation",
+      "arm": "ast_bpe_300",
+      "sampling": "mix20",
+      "random_fraction": 0.2
+    },
+    {
+      "scale": 636,
+      "seed": 525,
+      "case": "Chaffee_Infante_equation",
+      "arm": "ast_bpe_450",
+      "sampling": "model",
+      "random_fraction": 0.0
+    },
+    {
+      "scale": 636,
+      "seed": 527,
+      "case": "Wave_equation",
+      "arm": "eqgpt_reference",
+      "sampling": "legacy",
+      "random_fraction": 0.2
+    },
+    {
+      "scale": 636,
+      "seed": 526,
+      "case": "Chaffee_Infante_equation",
+      "arm": "eqgpt_reference",
+      "sampling": "legacy",
+      "random_fraction": 0.2
+    },
+    {
+      "scale": 636,
+      "seed": 525,
+      "case": "Eq_6_2_12",
+      "arm": "eqgpt_reference",
+      "sampling": "legacy",
+      "random_fraction": 0.2
+    },
+    {
+      "scale": 530,
+      "seed": 527,
+      "case": "Burgers_equation",
+      "arm": "eqgpt_reference",
+      "sampling": "legacy",
+      "random_fraction": 0.2
+    },
+    {
+      "scale": 212,
+      "seed": 527,
+      "case": "PDE_divide",
+      "arm": "ast_bpe_450",
+      "sampling": "mix20",
+      "random_fraction": 0.2
+    },
+    {
+      "scale": 424,
+      "seed": 525,
+      "case": "Wave_equation",
+      "arm": "ast_bpe_300",
+      "sampling": "model",
+      "random_fraction": 0.0
+    },
+    {
+      "scale": 318,
+      "seed": 525,
+      "case": "PDE_divide",
+      "arm": "ast_bpe_200",
+      "sampling": "model",
+      "random_fraction": 0.0
+    },
+    {
+      "scale": 636,
+      "seed": 525,
+      "case": "KG_equation",
+      "arm": "ast_bpe_450",
+      "sampling": "model",
+      "random_fraction": 0.0
+    }
+  ],
+  "case_directories": [
+    "restarts/stage01_20261113/stage1/search/results/318/ast_bpe_300/model/527/Eq_6_2_12",
+    "restarts/stage01_20261113/stage1/search/results/212/ast_bpe_300/model/525/Convection_diffusion_equation",
+    "restarts/stage01_20261113/stage1/search/results/424/ast_bpe_300/mix20/527/Chaffee_Infante_equation",
+    "restarts/stage01_20261113/stage1/search/results/636/ast_bpe_450/model/525/Chaffee_Infante_equation",
+    "restarts/stage01_20261113/stage1/search/results/636/eqgpt_reference/legacy/527/Wave_equation",
+    "restarts/stage01_20261113/stage1/search/results/636/eqgpt_reference/legacy/526/Chaffee_Infante_equation",
+    "restarts/stage01_20261113/stage1/search/results/636/eqgpt_reference/legacy/525/Eq_6_2_12",
+    "restarts/stage01_20261113/stage1/search/results/530/eqgpt_reference/legacy/527/Burgers_equation",
+    "restarts/stage01_20261113/stage1/search/results/212/ast_bpe_450/mix20/527/PDE_divide",
+    "restarts/stage01_20261113/stage1/search/results/424/ast_bpe_300/model/525/Wave_equation",
+    "restarts/stage01_20261113/stage1/search/results/318/ast_bpe_200/model/525/PDE_divide",
+    "restarts/stage01_20261113/stage1/search/results/636/ast_bpe_450/model/525/KG_equation"
+  ],
+  "asset": "verification-sample.tar.zst",
+  "bytes": 8168280,
+  "sha256": "9bc6b021ef70bbe00aac75548038999c0e42ec083ee905f041e94dcec0ecf527"
+}

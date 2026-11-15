@@ -1,0 +1,160 @@
+{
+  "round": 3,
+  "status": "PASS",
+  "method": "user-approved random sampled readback; not a full download",
+  "git_commit": "92245eb669d203d260edf43a8e24dae8ea7c1667",
+  "random_seed": 20261115,
+  "sampled_complete_cases": 12,
+  "restored_formal_files": 72,
+  "sampled_git_files": [
+    {
+      "path": "restarts/stage01_20261113/stage1/search_logs/212_ast_bpe_450_mix20_526_Burgers_equation.log",
+      "bytes": 9184,
+      "sha256": "a00f21a4a0f2e837e6f5ed1e4f1f945ddc664ffb1217b1c7633ef6b896b482ec"
+    },
+    {
+      "path": "eqgpt_original/code/PDE_dataset_0725.xlsx",
+      "bytes": 18196,
+      "sha256": "d48acfdf565d1c615343c92b6aacdac2c7db4354b1f74629952a984fcd7adc31"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/search_logs/424_ast_bpe_450_model_525_PDE_divide.log",
+      "bytes": 3313,
+      "sha256": "f88b9f16075f421be3240b4a2317824ab667742bd58468ec2435b54a59d9b7ca"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/settings.json",
+      "bytes": 1707,
+      "sha256": "ca382cd010ef0e40c3b2a5a217c62d6826aa8e49cba5647d845520cb81e21606"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/search_logs/636_ast_bpe_300_mix20_525_Wave_equation.log",
+      "bytes": 3645,
+      "sha256": "96fefafbfa1d0f6d0fa5c4a9c8b8cf21f8dfcf0511c2b99fa40fb3c3bc7dcd8d"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/318/ast_bpe_450/527/training.json",
+      "bytes": 13640,
+      "sha256": "8ba6a0232312d310c5c36a0812ce286b9df6a830da7ac7b9de03d8e4a8dec903"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/search_logs/318_ast_bpe_200_model_527_Burgers_equation.log",
+      "bytes": 3657,
+      "sha256": "dfe5d6ecf37ff0d64bb1fb457aa4263a5461837b8af887ebf27d655edf44dbf9"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/424/eqgpt_reference/525/training.json",
+      "bytes": 14922,
+      "sha256": "0752216aa1fbc0203fcda6f5bf64dcc67cfc635f99ab44e84917a77d37b60a23"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/search_logs/424_ast_bpe_300_model_525_PDE_divide.log",
+      "bytes": 3313,
+      "sha256": "791721dd80a9f94b825cf6c09697caada0db92a0ef08cc1b3d23631eee9f84e0"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/search_logs/636_ast_bpe_450_mix20_525_Wave_equation.log",
+      "bytes": 3336,
+      "sha256": "dc672c704d2de6b84e222e991163ffa6b622f36e882a3b815da84cae2f2818af"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/530/eqgpt_reference/525/COMPLETE.json",
+      "bytes": 223,
+      "sha256": "d50393270c40dce53e48fbbe01e4b00917dc725de9b186589c3306f7ea9b9181"
+    },
+    {
+      "path": "restarts/stage01_20261113/paper_upstream636_20261114/811/ast_bpe_400.train.json",
+      "bytes": 632,
+      "sha256": "52a25c0c1f27bd579dec1bd1c8b3faaaca68e80686194fb170c5d4a1a5b26a0d"
+    },
+    {
+      "path": "paper/data/upstream636/independent_audit.json",
+      "bytes": 366,
+      "sha256": "2e80a622aa23cdfcd2d9be152536219aaa716acedf6ff83a833eb402c9b4dc4d"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/pretrain_530_ast_bpe_300_527.log",
+      "bytes": 117982,
+      "sha256": "70a9b3d1893a835cd67cbf94f010bafb46a66e049b38ac382d59b1cd67d832e5"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/search_logs/530_ast_bpe_200_model_527_Chaffee_Infante_equation.log",
+      "bytes": 3399,
+      "sha256": "cc1f8eb16d02b34c8ca95ce5e44b8ebccf42761855819e11df2667ea77cb707b"
+    },
+    {
+      "path": "src/math_tokenizer/eqgpt/latex_generation.py",
+      "bytes": 2356,
+      "sha256": "407daab2c75021aad54098e2012669b8f3c2ec5c842ae1311c9bf6da9cec1fe5"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/530/ast_bpe_300/525/training.json",
+      "bytes": 13664,
+      "sha256": "daf70fc43a9b3ca04627c493392c03999e79b0227641873e012702338bca152e"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/212/tokenizers/200.model.backend.json",
+      "bytes": 13160,
+      "sha256": "3c2afd45bbbe34fe37a68b158be375bc5d64f3fbe2b1ad84a1820fd880cb137c"
+    },
+    {
+      "path": "restarts/stage01_20261113/paper_upstream636_20261114/811/ast_bpe_250.train.tokens.csv",
+      "bytes": 15111,
+      "sha256": "30ca5cc370cc7d8b68fff8bcf4b071d0182cf59b4c8960be1a88314f39f24e34"
+    },
+    {
+      "path": "restarts/stage01_20261113/stage1/search_logs/530_ast_bpe_450_mix20_525_Chaffee_Infante_equation.log",
+      "bytes": 3402,
+      "sha256": "4c7aaffc4bff20defae45511d0c883598fd198a01a62df953352a2fafabfaba3"
+    },
+    {
+      "path": "archive_manifest.json",
+      "bytes": 2482645,
+      "sha256": "09702a708096fd0eed8235d381b948acbae3abec2e71139a31cc152753750119"
+    },
+    {
+      "path": "release_assets.json",
+      "bytes": 2848,
+      "sha256": "9ca90fc7d13c6f889eab06991c707446787f8a6f7af3ac31aff24990085e0a5a"
+    },
+    {
+      "path": "git_files_manifest.json",
+      "bytes": 309117,
+      "sha256": "3c5e89859c9fdc35d41f62669bcb8c5067fd94717df42903b5b1dc86d9c6e7c7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5725,
+      "sha256": "323575cb2f76188b5784660c3edb2376f17b52484379d4c0a204ebe0d07efc5a"
+    },
+    {
+      "path": "paper/latex/main.tex",
+      "bytes": 25334,
+      "sha256": "194a8822b022abb235fbf3cf50ee0452dbff2c7736acbc21a56d84cce4b4d7da"
+    }
+  ],
+  "large_asset_ranges": [
+    {
+      "asset": "stage1-best-checkpoints.tar.zst.part007",
+      "offset": 465666048,
+      "bytes": 262144,
+      "sha256": "8b63fe2fa749387c6d18ce1d859937de26f09bb3fecb08985103947ff5c01cd7"
+    },
+    {
+      "asset": "stage1-best-checkpoints.tar.zst.part000",
+      "offset": 360980480,
+      "bytes": 262144,
+      "sha256": "a2525d41dde2ea9cd3079fceb845aa1e611b37ea1094936a2b9614bb08f6c3b7"
+    },
+    {
+      "asset": "stage1-best-checkpoints.tar.zst.part006",
+      "offset": 726233088,
+      "bytes": 262144,
+      "sha256": "4e6ff5c149dfdbb06eac83e6502369e1fd5281fd64d657f890f11c91c110e294"
+    }
+  ],
+  "all_12_large_asset_github_sha256_match": true,
+  "full_checkpoint_mirror_not_required": true,
+  "local_download_directory": "/Users/xiao/Documents/ChatGPT/\u79d1\u7814\u5de5\u4f5c\uff08\u6e2f\u57ce\uff09/outputs/eqgpt-research/github-publication/fresh-download",
+  "completed": 1794706102.26785
+}
