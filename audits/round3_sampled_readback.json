@@ -155,6 +155,6 @@
   ],
   "all_12_large_asset_github_sha256_match": true,
   "full_checkpoint_mirror_not_required": true,
-  "local_download_directory": "/Users/xiao/Documents/ChatGPT/\u79d1\u7814\u5de5\u4f5c\uff08\u6e2f\u57ce\uff09/outputs/eqgpt-research/github-publication/fresh-download",
+  "local_download_directory": "Temporary local directory; location supplied privately to the user.",
   "completed": 1794706102.26785
 }

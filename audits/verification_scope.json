@@ -4,5 +4,5 @@
   "round2": "Fresh public-source runtime import, native tokenizer loading and encoding, three official references, numerical-cache CPU replay",
   "round3": "User-approved sampled GitHub readback: 12 complete cases / 72 files, 25 Git blobs, 3 random large-part byte ranges; all large-part GitHub digests checked",
   "complete_local_checkpoint_mirror": false,
-  "download_directory_user_can_delete": "/Users/xiao/Documents/ChatGPT/\u79d1\u7814\u5de5\u4f5c\uff08\u6e2f\u57ce\uff09/outputs/eqgpt-research/github-publication/fresh-download"
+  "download_directory_user_can_delete": "Temporary local directory; location supplied privately to the user."
 }
