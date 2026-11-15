@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "files": {
     "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-    "README.md": "563fbe99b9c8206edde1cac1e0be7a22631b64643078f81f0b141274eeb233ee",
+    "README.md": "e3d15ee491311a203f910351ef4adc8ab8975ad959015e2eff208d0b6dbb7cda",
     "code/dict_datas_0725.json": "6cec0ef67d61fc385e30826a7799e7cd42ff4759c729f51eab409ad2f128fc30",
     "code/read_dataset.py": "e0e2ff903fd12ae4f01441ddbbd482f40f7f54986c2880b8a96800930f12ceb7",
     "code/surrogate_model.py": "c72b1e90d0d76ce901953c82d92b8ca453f920eb0a4c5b8850264004407bf6a4",
@@ -172,5 +172,11 @@
       "size": 137903,
       "sha256": "239f106b040421419e72575589e421cec6c527484659a953b19e8472b048ec38"
     }
-  ]
+  ],
+  "documentation_modifications": {
+    "date": "2026-11-15",
+    "description": "Concise local README files; upstream code and datasets unchanged.",
+    "upstream_readme_sha256": "563fbe99b9c8206edde1cac1e0be7a22631b64643078f81f0b141274eeb233ee",
+    "current_readme_sha256": "e3d15ee491311a203f910351ef4adc8ab8975ad959015e2eff208d0b6dbb7cda"
+  }
 }

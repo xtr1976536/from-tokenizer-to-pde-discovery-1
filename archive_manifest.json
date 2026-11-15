@@ -475,25 +475,29 @@
       "source": "eqgpt_original/LICENSE"
     },
     {
-      "path": "eqgpt_original/\u8bba\u6587\u539f\u7248\u8bf4\u660e.md",
+      "path": "eqgpt_original/论文原版说明.md",
       "bytes": 1078,
       "sha256": "bfa65fcc90a9e5fa0b1b8e7d7ca3b2a8531c4a2740a176e2b853878486e8bf63",
       "placement": "git",
-      "source": "eqgpt_original/\u8bba\u6587\u539f\u7248\u8bf4\u660e.md"
+      "source": "eqgpt_original/论文原版说明.md"
     },
     {
       "path": "eqgpt_original/README.md",
-      "bytes": 3140,
-      "sha256": "563fbe99b9c8206edde1cac1e0be7a22631b64643078f81f0b141274eeb233ee",
+      "bytes": 1041,
+      "sha256": "e3d15ee491311a203f910351ef4adc8ab8975ad959015e2eff208d0b6dbb7cda",
       "placement": "git",
-      "source": "eqgpt_original/README.md"
+      "source": "eqgpt_original/README.md",
+      "previous_sha256": "563fbe99b9c8206edde1cac1e0be7a22631b64643078f81f0b141274eeb233ee",
+      "revision_note": "Documentation revision, 2026-11-15"
     },
     {
       "path": "eqgpt_original/provenance.json",
-      "bytes": 6617,
-      "sha256": "fed93bedff7a65b359e5452727606c03d37777f7b2b67614f98ed6c5a574a3de",
+      "bytes": 6965,
+      "sha256": "ae2b9414e13b6e991ff007ac5940c3dcc2aabe4fb4575d4d330c085d3b7535b2",
       "placement": "git",
-      "source": "eqgpt_original/provenance.json"
+      "source": "eqgpt_original/provenance.json",
+      "previous_sha256": "fed93bedff7a65b359e5452727606c03d37777f7b2b67614f98ed6c5a574a3de",
+      "revision_note": "Documentation revision, 2026-11-15"
     },
     {
       "path": "eqgpt_original/code/read_dataset.py",
@@ -546,10 +550,12 @@
     },
     {
       "path": "eqgpt_original/code/readme",
-      "bytes": 101,
-      "sha256": "f96ad4df5c71997a9a56623ca9644ff9a7eb9320bd2955c12d9b5c0f145cced3",
+      "bytes": 367,
+      "sha256": "8c96c12d767da741ee8bbdda51b4ed01848eba074b1bd6f7e7e1b9f165fa8c51",
       "placement": "git",
-      "source": "eqgpt_original/code/readme"
+      "source": "eqgpt_original/code/readme",
+      "previous_sha256": "f96ad4df5c71997a9a56623ca9644ff9a7eb9320bd2955c12d9b5c0f145cced3",
+      "revision_note": "Documentation revision, 2026-11-15"
     },
     {
       "path": "eqgpt_original/code/PINN_optimization.py",
@@ -45415,11 +45421,11 @@
       "source": "restarts/stage01_20261113/closing/task3/questions/reward_two_equations.json"
     },
     {
-      "path": "analysis/questions/\u95ee\u9898\u590d\u6838\u8bf4\u660e.md",
+      "path": "analysis/questions/问题复核说明.md",
       "bytes": 2537,
       "sha256": "1ee57e4d2f97cbbb7e7f56c5c755d9a7e1b7e53236f6e9ab973549ca5ea1075f",
       "placement": "git",
-      "source": "restarts/stage01_20261113/closing/task3/questions/\u95ee\u9898\u590d\u6838\u8bf4\u660e.md"
+      "source": "restarts/stage01_20261113/closing/task3/questions/问题复核说明.md"
     },
     {
       "path": "analysis/candidate_structures/pooled_unique_structures.csv",

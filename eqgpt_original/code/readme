@@ -1,1 +1,8 @@
-The codes for the "PDEGPT: Learning from Math handbooks for Partial Differential Equation Discovery"
+EqGPT code for PDE discovery from mathematical handbooks.
+
+surrogate_model.py: train the equation model and fit a surrogate field.
+continue_train_GPT.py: generate and score equations, then fine-tune on high-scoring candidates.
+PINN_optimization.py: refine coefficients of the selected equation.
+
+Paper: https://doi.org/10.1038/s41467-025-65114-2
+License: Apache-2.0.

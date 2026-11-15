@@ -1,0 +1,3 @@
+vocab_size,cases,total_candidates,new_structure_occurrences,new_structure_pct,new_structure_top10_slots,special_candidate_occurrences,special_candidate_unique_per_run_sum,special_top10_slots,cases_with_special_in_top10
+300,8,16000,11517,71.98125,45,7,7,7,4
+450,8,16000,12561,78.50625,48,18,14,10,4

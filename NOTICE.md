@@ -9,3 +9,5 @@ The root MIT license applies only to original project code. Third-party files re
 - Formula records include provenance links, transformations, source locations and source-document SHA-256 values. The original third-party publication PDFs are not redistributed here; they are not model training records. `data/formulas/636/sources.jsonl` contains all 636 actual records, including source-defined family instances.
 
 This repository publishes the complete formal experimental records, not unrelated project directories or superseded report versions.
+
+The EqGPT workflow image in the papers is reproduced from Xu et al., Nature Communications 16, 10255 (2025), Figure 1, DOI: 10.1038/s41467-025-65114-2. Copyright The Author(s) 2025. The image is used unchanged under CC BY-NC-ND 4.0: https://creativecommons.org/licenses/by-nc-nd/4.0/. Its license is separate from the repository's code license.

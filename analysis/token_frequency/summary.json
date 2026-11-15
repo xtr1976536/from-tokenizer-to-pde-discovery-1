@@ -1,0 +1,50 @@
+[
+  {
+    "corpus": 212,
+    "vocab_size": 300,
+    "formulas": 212,
+    "content_tokens": 297,
+    "total_occurrences": 1101,
+    "used": 178,
+    "unused": 119,
+    "top10_share_pct": 37.51135331516803,
+    "vocabulary_sha256": "ec17c59be9eaab0b0f565d150bba0dbb740d93034de6d794924e07911898accd",
+    "source_sha256": "63bb168315348ac3d30fbb3728a134e549b037a073cedaca601b20e317036efd"
+  },
+  {
+    "corpus": 212,
+    "vocab_size": 450,
+    "formulas": 212,
+    "content_tokens": 447,
+    "total_occurrences": 837,
+    "used": 242,
+    "unused": 205,
+    "top10_share_pct": 37.27598566308244,
+    "vocabulary_sha256": "fbba84c4fd45fc20b1d0c3cc0a670eb5ce2cb52647c6129e17a4a6a607dabd07",
+    "source_sha256": "63bb168315348ac3d30fbb3728a134e549b037a073cedaca601b20e317036efd"
+  },
+  {
+    "corpus": 636,
+    "vocab_size": 300,
+    "formulas": 636,
+    "content_tokens": 297,
+    "total_occurrences": 4608,
+    "used": 190,
+    "unused": 107,
+    "top10_share_pct": 34.26649305555556,
+    "vocabulary_sha256": "7281091ec5692af39ea7353752b98e3f4a6c99a77d1f6b9404617c1aaa26293a",
+    "source_sha256": "4cdc355a4095d62e140460864d827682ba9c8643313373c7a762a6ed227ca512"
+  },
+  {
+    "corpus": 636,
+    "vocab_size": 450,
+    "formulas": 636,
+    "content_tokens": 447,
+    "total_occurrences": 3497,
+    "used": 319,
+    "unused": 128,
+    "top10_share_pct": 30.969402344867028,
+    "vocabulary_sha256": "6f354a9f662a0a2345886f8519980fd49019d35cbbccf13cb7091dc44c28b31b",
+    "source_sha256": "4cdc355a4095d62e140460864d827682ba9c8643313373c7a762a6ed227ca512"
+  }
+]

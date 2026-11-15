@@ -1,0 +1,13 @@
+{
+  "chinese_text_unchanged_except_repository_notice": true,
+  "chinese_first_four_page_pixel_matches": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "english_and_chinese_figure_assets_identical": true,
+  "repository_hyperlinks_present_in_both_pdfs": true,
+  "chinese_pages": 9,
+  "english_pages": 10
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "eqgpt_original/README.md",
+    "previous_sha256": "563fbe99b9c8206edde1cac1e0be7a22631b64643078f81f0b141274eeb233ee",
+    "sha256": "8270fe6fb950c38842adaa9d30fce6332454b7ffb7428d45321a3d38263d9eb4"
+  },
+  {
+    "path": "eqgpt_original/provenance.json",
+    "previous_sha256": "fed93bedff7a65b359e5452727606c03d37777f7b2b67614f98ed6c5a574a3de",
+    "sha256": "8e3c60fff9a2500e0cbcb1f9bc8582dcc6b5a4419c8bb9aa4ed3bf1750474acb"
+  },
+  {
+    "path": "eqgpt_original/code/readme",
+    "previous_sha256": "f96ad4df5c71997a9a56623ca9644ff9a7eb9320bd2955c12d9b5c0f145cced3",
+    "sha256": "8c96c12d767da741ee8bbdda51b4ed01848eba074b1bd6f7e7e1b9f165fa8c51"
+  }
+]
