@@ -77,3 +77,9 @@ Source publication PDFs are third-party works, not the 636 actual training recor
 ## Licenses
 
 Original project code is MIT. Third-party material retains its own license, including Apache-2.0 for EqGPT and the Meta Llama 3 Community License for its tokenizer. See `NOTICE.md` and the retained per-asset licenses. No credentials or private keys are included.
+
+## Server cleanup completed
+
+After all three verification rounds and two pre-deletion safety checks, the 25 explicitly allowlisted Stage 0/1 private paths and publication scratch directory were removed. Estimated reclaimed allocated space: 50.9 GiB. Shared source libraries, original formula/case data, tokenizer assets and numerical caches referenced by other experiments were retained. The exact allowlist and protection checks are in `audits/server_cleanup_check1.json`, `audits/server_cleanup_check2.json` and `audits/server_cleanup_receipt.json`.
+
+Analysis scripts preserve the original project-root constant; set it to your restored checkout before regenerating analyses on another machine.
